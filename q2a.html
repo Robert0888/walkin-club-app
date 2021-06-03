@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OU Walk Club</title>
+    <link rel="stylesheet" href="q2b.css">
+</head>
+<body>
+    <h1 tabindex="0">ou walk club</h1>
+    <div class="container">
+        
+        <header class="bal">
+            <ul>
+                <li role="listitem" tabindex="1"><a href="index.html">home</a></li>
+                <li role="listitem" tabindex="2"><a href="#">walk events</a></li>
+                <li role="listitem" tabindex="3"><a href="#">other events</a></li>
+                <li role="listitem" tabindex="4"><a href="membership.html">membership</a></li>
+                <li role="listitem" tabindex="5"><a href="#">News items</a></li>
+                <li role="listitem" tabindex="6"><a href="q2a.html">announcements</a></li>
+                <li role="listitem" tabindex="7"><a href="#">security</a></li>
+            </ul>
+        </header>
+        <main class="jobb">
+            <div class="announcemetns">
+                <form action="http://students.open.ac.uk/mct/tt284/reflect/reflect.php" method="POST">
+                    
+
+                    
+                        <h3 tabindex="8">Add Announcements</h3>
+                        
+                        <div tabindex="9">
+                            <label for="attachment">Add Attachment</label>
+                        </div>
+                        
+                        <div tabindex="10">
+                            <input type="file" name="attachment" id="attachment">
+                        </div>
+                        
+                        <div tabindex="11">
+                            <textarea name="text" id="text" cols="30" rows="10" placeholder="Add text up to 400 characters..." maxlength="400" aria-required="true"></textarea>
+                        </div>
+                        <div>
+                            <label for="date">Date to be sent :</label>
+                        </div>
+                        <div>
+                            <input type="date" name="date" id="date">
+                        </div>
+                        <div  >
+                            <button role="button" tabindex="12" class="btn btn-1">Add Recepients</button> 
+                            <button role="button" tabindex="13" class="btn btn-1">Remove Recepients</button>
+                        </div>
+                        
+                        <div >
+                            <button role="button" tabindex="14" class="btn btn-4">Save Draft</button>
+                            <input role="button" tabindex="15" type="reset" value="Reset" class="btn btn-5">
+                           <input role="button" tabindex="16" type="submit" value="Send" class="btn btn-6">
+                        </div>
+                           <input type="text" name="session-ID" id="session-ID" class="vis" value="1234abcd-5678-9090-efe">
+                          
+                </form>
+            </div>
+            <div class="recent-activity" tabindex="17">
+                <h3>Recent Activity</h3>
+            </div>
+        </main>
+    </div>
+    
+</body>
+</html>

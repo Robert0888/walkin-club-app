@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.container {
+    display: flex;
+    margin: 30px auto;
+    max-width: 1024px;
+    min-height: 600px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.bal {
+    height: 30rem;
+    width: 10rem;
+    margin-right: 5px;
+    border: 10px solid rgb(235, 232, 232);
+}
+.bal ul {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.bal ul li {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+.bal ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.jobb {
+    height: 30rem;
+    width: 50rem;
+    display: flex;
+}
+
+main form {
+    margin-right:5px;
+    border: 10px solid rgb(235, 232, 232);
+    height: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.announcemetns{
+    height: 100%;
+    width: 50%;
+}
+.btn {
+    padding: 3px 5px;
+    margin: 3px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+}
+
+.btn-1 {
+    background: rgb(112, 111, 111);
+    
+}
+
+.btn-4 {
+    background: green;
+}
+
+.btn-5 {
+    background: rgb(216, 63, 3);
+}
+.btn-6 {
+    background: rgb(0, 92, 128);
+}
+.vis {
+    visibility: hidden;
+}
+
+.recent-activity{
+    height: 100%;
+    width: 40%;
+    border: 10px solid rgb(235, 232, 232);
+}
+
+.recent-activity h3 {
+    text-align: center;
+    margin-top: 10px;
+}
